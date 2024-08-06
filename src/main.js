@@ -16,6 +16,11 @@ import CollapseTransition from 'element-ui/lib/transitions/collapse-transition';
 import animate from '../animate.css'
 import style from './assets/style.css'
 
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+import 'swiper/css/swiper.css'
+Vue.use(VueAwesomeSwiper)
+
+
 /* jq */
 import $ from 'jquery'
 
